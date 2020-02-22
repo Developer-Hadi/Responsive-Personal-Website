@@ -6,6 +6,9 @@ body{
     font-family: 'Roboto', ;
     /* font-style: italic; */
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* =======================
 =====COMMON CSS===========
@@ -14,7 +17,6 @@ body{
     color: #EA3C8E;
     font-weight: 700;
     font-style: italic;
-    font-family: ;
 }
 .btn-hero{
     background: #EA3C8E;
@@ -73,10 +75,17 @@ body{
 
 
 
+#Work{
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
-
-
+#Blog{
+    background: #EA3C8E;
+}
 
 
 
