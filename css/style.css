@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', ;
+    /* font-style: italic; */
+}
+
+/* =======================
+=====COMMON CSS===========
+======================== */
+.name{
+    color: #EA3C8E;
+    font-weight: 700;
+    font-style: italic;
+    font-family: ;
+}
+.btn-hero{
+    background: #EA3C8E;
+    text-transform: uppercase;
+    border: 1px solid #EA3C8E;
+}
+.btn-hero:hover{
+    background: #fff;
+    color: #EA3C8E;
+    border: 1px solid #EA3C8E;
+}
+
+/* =======================
+=====INTRODUCTION CSS=====
+======================== */
+
+#Introduction{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+#Introduction .intro_text{
+    margin: 180px 0px 30px 100px;
+}
+#Introduction .intro_text h1{
+    font-size: 44px;
+}
+#Introduction .intro_text p{
+    font-size: 16px;
+    padding: 20px 0px;
+    color: #444;
+}
+
+/* =======================
+=====BIOGRAPHY CSS========
+======================== */
+#Biography{
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+}
+
+.bio_text{
+    margin: 180px 0px 30px 100px;
+}
+
+.bio_text p{
+    font-size: 16px;
+    padding: 20px 0px;
+    color: #444;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
