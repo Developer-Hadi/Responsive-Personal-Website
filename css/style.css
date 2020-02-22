@@ -1,51 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Roboto', ;
     /* font-style: italic; */
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
 /* =======================
 =====COMMON CSS===========
 ======================== */
-.name{
+.name {
     color: #EA3C8E;
     font-weight: 700;
     font-style: italic;
 }
-.btn-hero{
+
+.btn-hero {
     background: #EA3C8E;
     text-transform: uppercase;
     border: 1px solid #EA3C8E;
 }
-.btn-hero:hover{
+
+.btn-hero:hover {
     background: #fff;
     color: #EA3C8E;
     border: 1px solid #EA3C8E;
 }
 
 /* =======================
+=====NAVIGATION CSS=======
+======================== */
+.navbar .nav-item .nav-link{
+    padding: 10px 20px;
+}
+.navbar .nav-item:hover .nav-link{
+    background: #EA3C8E;
+    color: #fff;
+    border-radius: 20px 5px;
+}
+/* =======================
 =====INTRODUCTION CSS=====
 ======================== */
 
-#Introduction{
+#Introduction {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 }
-#Introduction .intro_text{
+
+#Introduction .intro_text {
     margin: 180px 0px 30px 100px;
 }
-#Introduction .intro_text h1{
+
+#Introduction .intro_text h1 {
     font-size: 44px;
 }
-#Introduction .intro_text p{
+
+#Introduction .intro_text p {
     font-size: 16px;
     padding: 20px 0px;
     color: #444;
@@ -54,7 +72,7 @@ html{
 /* =======================
 =====BIOGRAPHY CSS========
 ======================== */
-#Biography{
+#Biography {
     background-image: url(../images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -62,20 +80,22 @@ html{
     margin: 50px auto;
 }
 
-.bio_text{
+.bio_text {
     margin: 180px 0px 30px 100px;
 }
 
-.bio_text p{
+.bio_text p {
     font-size: 16px;
     padding: 20px 0px;
     color: #444;
     text-align: justify;
 }
 
+/* =======================
+========WORK CSS==========
+======================== */
 
-
-#Work{
+#Work {
     background-image: url(../images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -83,10 +103,38 @@ html{
 }
 
 
-#Blog{
+#Blog {
     background: #EA3C8E;
 }
 
 
+/* =======================
+=====RESPONSIVE CSS=======
+======================== */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
 
+    #Introduction .intro_text {
+        margin: 50px;
+    }
 
+    .intro_pic {
+        max-width: 70%;
+        margin: 20px auto;
+    }
+
+    .bio_text {
+        margin: 5px;
+        margin-top: 15px;
+    }
+
+    #Work h1 {
+        margin-top: -100px;
+    }
+
+    #Blog h1 {
+        margin-top: -50px;
+    }
+}
